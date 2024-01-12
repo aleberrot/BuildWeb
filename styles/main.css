@@ -102,6 +102,12 @@ a.nav-link{
 
 }
 
+.parag{
+    font-size: 1.4em; 
+    font-weight: bold; margin-top: 3.5rem; 
+    margin-left: 0;
+}
+
 .image{
     margin: auto;
     height: auto;
@@ -117,6 +123,15 @@ a.nav-link{
   }
   .texto-contenedor{
     font-size: smaller;
+  }
+  svg{
+    height: 100px;
+    width: 100px;
+  }
+  .parag{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 3rem;
   }
 }
 
