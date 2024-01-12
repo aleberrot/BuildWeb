@@ -93,13 +93,26 @@ a.nav-link{
 
 .texto-contenedor{
     padding: 1rem; 
-    font-size: large;
+    font-size: medium;
 }
 
 .carousel-caption h1{
     font-size: 5rem;
     color: #FFFF;
 
+}
+
+.image{
+    margin: auto;
+    height: auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .image {
+    margin-top: 40px; /* Adjust the value as needed */
+    width: 500px;
+    height: 400px;
+  }
 }
 
 #top-section{
