@@ -108,10 +108,15 @@ a.nav-link{
 }
 
 @media screen and (max-width: 1300px) {
-  .image {
-    margin-top: 40px; /* Adjust the value as needed */
+  .image { /* Adjust the value as needed */
     width: 500px;
     height: 400px;
+  }
+  .contenedor{
+    height: 400px;
+  }
+  .texto-contenedor{
+    font-size: smaller;
   }
 }
 
