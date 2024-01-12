@@ -89,6 +89,7 @@ a.nav-link{
 .contenedor h1{
      padding-left: 1.5rem;
     color: whitesmoke;
+    height: 5rem;
 }
 
 .texto-contenedor{
@@ -113,16 +114,17 @@ a.nav-link{
     height: auto;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1320px) {
   .image { /* Adjust the value as needed */
     width: 500px;
     height: 400px;
   }
   .contenedor{
-    height: 400px;
+    height: 420px;
   }
   .texto-contenedor{
-    font-size: smaller;
+    font-size: 13px;
+    padding: 0;
   }
   svg{
     height: 100px;
