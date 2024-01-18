@@ -82,19 +82,21 @@ a.nav-link{
 .contenedor{
     background-color:  #E7AC37 ; 
     border-radius: 5%; 
-    padding: 5vh;
+    padding: 2rem;
     margin: 2rem;
+    height: 453px;
+    width: 820px;
 }
 
 .contenedor h1{
      padding-left: 1.5rem;
     color: whitesmoke;
-    height: 5rem;
+    height: 3rem;
 }
 
 .texto-contenedor{
     padding: 1rem; 
-    font-size: medium;
+    font-size: small;
 }
 
 .carousel-caption h1{
@@ -111,7 +113,6 @@ a.nav-link{
 
 .image{
     margin: auto;
-    height: auto;
 }
 
 @media screen and (max-width: 1320px) {
