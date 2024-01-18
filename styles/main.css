@@ -91,10 +91,11 @@ a.nav-link{
 .contenedor h1{
      padding-left: 1.5rem;
     color: whitesmoke;
-    height: 3rem;
+    height: 2rem;
 }
 
 .texto-contenedor{
+    margin-top: 3rem;
     padding: 1rem; 
     font-size: small;
 }
@@ -115,13 +116,13 @@ a.nav-link{
     margin: auto;
 }
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1400px) {
   .image { /* Adjust the value as needed */
-    width: 500px;
+    width: 550px;
     height: 400px;
   }
   .contenedor{
-    height: 420px;
+    height: 450px;
   }
   .texto-contenedor{
     font-size: 13px;
@@ -135,6 +136,9 @@ a.nav-link{
     font-weight: lighter;
     font-size: 15px;
     margin-left: 3rem;
+  }
+  .contenedor h1{
+    font-size: 2rem;
   }
 }
 
